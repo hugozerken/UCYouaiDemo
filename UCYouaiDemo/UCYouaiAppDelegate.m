@@ -21,7 +21,7 @@
 {
     // Override point for customization after app launch
     
-    UCYouaiViewController *youaiViewController = [[UCYouaiViewController alloc] init];
+    UCYouaiViewController *youaiViewController = [[[UCYouaiViewController alloc] init] autorelease];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
@@ -38,6 +38,10 @@
     // Save data if appropriate
 }
 
-
+- (void)dealloc
+{
+    [super dealloc];
+    
+}
 
 @end
