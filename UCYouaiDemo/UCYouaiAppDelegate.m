@@ -14,19 +14,24 @@
 #import "UCYouaiAppDelegate.h"
 
 #import "UCYouaiViewController.h"
+#import "TestViewController.h"
 
 @implementation UCYouaiAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after app launch
+
     
-    UCYouaiViewController *youaiViewController = [[[UCYouaiViewController alloc] init] autorelease];
     
+//    UCYouaiViewController *youaiViewController = [[[UCYouaiViewController alloc] init] autorelease];
+//    self.window.rootViewController = youaiViewController;
+//    [self.window addSubview:[youaiViewController view]];
+    
+    TestViewController *testViewController = [[[TestViewController alloc] init] autorelease];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    self.window.rootViewController = youaiViewController;
-    [self.window addSubview:[youaiViewController view]];
+    self.window.rootViewController = testViewController;
+    [self.window addSubview:[testViewController view]];
     
     [self.window makeKeyAndVisible];
 
