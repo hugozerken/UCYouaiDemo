@@ -26,7 +26,7 @@
     [super viewDidLoad];
     
     UINavigationBar *navigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, self.view.frame.size.width, 51.0f)];
-    UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:@"UC Love"];
+    UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:@"Test Demo"];
     [navigationBar pushNavigationItem:navigationItem animated:NO];
     
     [self.view addSubview:navigationBar];
