@@ -32,7 +32,7 @@
     [self.view addSubview:navigationBar];
     
     PackageItemList *packItemList = [[PackageItemList alloc] init];
-    [packItemList.view setFrame:CGRectMake(0.0f,navigationBar.frame.origin.x+ 51.0f , self.view.frame.size.width, self.view.frame.size.height)];
+    [packItemList.view setFrame:CGRectMake(0.0f,navigationBar.frame.origin.y+ 51.0f , self.view.frame.size.width, self.view.frame.size.height)];
     
     [self.view addSubview:packItemList.view];
     

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		869471211A1E40D3006C7CA8 /* PackageItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 869471201A1E40D3006C7CA8 /* PackageItemList.m */; };
 		9C8CFB1F1A17523C00CD3EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8CFB1E1A17523C00CD3EE9 /* main.m */; };
 		9C8CFB221A17523C00CD3EE9 /* UCYouaiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8CFB211A17523C00CD3EE9 /* UCYouaiAppDelegate.m */; };
 		9C8CFB251A17523C00CD3EE9 /* UCYouaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8CFB241A17523C00CD3EE9 /* UCYouaiViewController.m */; };
 		9C8CFB391A17523C00CD3EE9 /* UCYouaiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8CFB381A17523C00CD3EE9 /* UCYouaiDemoTests.m */; };
 		9C8CFB4C1A17538E00CD3EE9 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8CFB4B1A17538E00CD3EE9 /* EGORefreshTableHeaderView.m */; };
-		9C8CFB531A177B3400CD3EE9 /* PackageItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8CFB521A177B3400CD3EE9 /* PackageItemList.m */; };
 		9C8CFB5B1A17811000CD3EE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8CFB5A1A17811000CD3EE9 /* UIKit.framework */; };
 		9C8CFB5D1A17811600CD3EE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8CFB5C1A17811600CD3EE9 /* Foundation.framework */; };
 		9C8CFB5F1A17812100CD3EE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8CFB5E1A17812100CD3EE9 /* CoreGraphics.framework */; };
@@ -29,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8694711F1A1E40D3006C7CA8 /* PackageItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PackageItemList.h; path = Components/PackageItemList.h; sourceTree = "<group>"; };
+		869471201A1E40D3006C7CA8 /* PackageItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PackageItemList.m; path = Components/PackageItemList.m; sourceTree = "<group>"; };
 		9C8CFB191A17523C00CD3EE9 /* UCYouaiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCYouaiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8CFB1D1A17523C00CD3EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C8CFB1E1A17523C00CD3EE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,8 +42,6 @@
 		9C8CFB381A17523C00CD3EE9 /* UCYouaiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCYouaiDemoTests.m; sourceTree = "<group>"; };
 		9C8CFB4A1A17538E00CD3EE9 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = RefreshTableHeaderView/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		9C8CFB4B1A17538E00CD3EE9 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = RefreshTableHeaderView/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
-		9C8CFB511A177B3400CD3EE9 /* PackageItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PackageItemList.h; path = Components/PackageItemList.h; sourceTree = "<group>"; };
-		9C8CFB521A177B3400CD3EE9 /* PackageItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PackageItemList.m; path = Components/PackageItemList.m; sourceTree = "<group>"; };
 		9C8CFB571A177DFC00CD3EE9 /* UCYouaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCYouaiViewController.h; sourceTree = "<group>"; };
 		9C8CFB5A1A17811000CD3EE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C8CFB5C1A17811600CD3EE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,8 +150,8 @@
 		9C8CFB4D1A17748100CD3EE9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				9C8CFB511A177B3400CD3EE9 /* PackageItemList.h */,
-				9C8CFB521A177B3400CD3EE9 /* PackageItemList.m */,
+				8694711F1A1E40D3006C7CA8 /* PackageItemList.h */,
+				869471201A1E40D3006C7CA8 /* PackageItemList.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8CFB4C1A17538E00CD3EE9 /* EGORefreshTableHeaderView.m in Sources */,
-				9C8CFB531A177B3400CD3EE9 /* PackageItemList.m in Sources */,
+				869471211A1E40D3006C7CA8 /* PackageItemList.m in Sources */,
 				9C8CFB251A17523C00CD3EE9 /* UCYouaiViewController.m in Sources */,
 				9C8CFB221A17523C00CD3EE9 /* UCYouaiAppDelegate.m in Sources */,
 				9C8CFB1F1A17523C00CD3EE9 /* main.m in Sources */,
